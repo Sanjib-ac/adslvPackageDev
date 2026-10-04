@@ -198,7 +198,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="setDeviceS.vi" Type="VI" URL="../setDeviceS.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -216,7 +216,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="showResultwithBB.vi" Type="VI" URL="../showResultwithBB.vi">
+		<Item Name="showOCRResultwithBB.vi" Type="VI" URL="../showOCRResultwithBB.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">262400</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
