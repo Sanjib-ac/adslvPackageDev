@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">25.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,9 +14,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="adsOCR.lvlib" Type="Library" URL="../adsOCR.lvlib"/>
+		<Item Name="tcv.lvlib" Type="Library" URL="../tcv.lvlib"/>
+		<Item Name="testUpload.vi" Type="VI" URL="../testUpload.vi"/>
 		<Item Name="mainOCR _PC.vi" Type="VI" URL="../mainOCR _PC.vi"/>
 		<Item Name="mainOCR.vi" Type="VI" URL="../mainOCR.vi"/>
-		<Item Name="testUpload.vi" Type="VI" URL="../testUpload.vi"/>
 		<Item Name="testUpload_raw.vi" Type="VI" URL="../testUpload_raw.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
