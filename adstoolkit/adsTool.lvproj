@@ -13,8 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="adsOCR.lvlib" Type="Library" URL="../adsOCR.lvlib"/>
 		<Item Name="tcv.lvlib" Type="Library" URL="../tcv.lvlib"/>
+		<Item Name="adsOCR.lvlib" Type="Library" URL="../adsOCR.lvlib"/>
+		<Item Name="imgPrc.lvlib" Type="Library" URL="../imgPrc.lvlib"/>
+		<Item Name="dl.lvlib" Type="Library" URL="../dl.lvlib"/>
 		<Item Name="testUpload.vi" Type="VI" URL="../testUpload.vi"/>
 		<Item Name="mainOCR _PC.vi" Type="VI" URL="../mainOCR _PC.vi"/>
 		<Item Name="mainOCR.vi" Type="VI" URL="../mainOCR.vi"/>
