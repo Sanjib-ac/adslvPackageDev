@@ -19,6 +19,7 @@
 		<Item Name="mainOCR _PC.vi" Type="VI" URL="../mainOCR _PC.vi"/>
 		<Item Name="mainOCR.vi" Type="VI" URL="../mainOCR.vi"/>
 		<Item Name="testUpload_raw.vi" Type="VI" URL="../testUpload_raw.vi"/>
+		<Item Name="mainOCRV2.vi" Type="VI" URL="../mainOCRV2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
