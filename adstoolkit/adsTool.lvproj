@@ -22,8 +22,6 @@
 		<Item Name="mainOCR.vi" Type="VI" URL="../mainOCR.vi"/>
 		<Item Name="testUpload_raw.vi" Type="VI" URL="../testUpload_raw.vi"/>
 		<Item Name="mainOCRV2.vi" Type="VI" URL="../mainOCRV2.vi"/>
-		<Item Name="detect.ctl" Type="VI" URL="../dl/detect.ctl"/>
-		<Item Name="detectionParameters.ctl" Type="VI" URL="../dl/detectionParameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

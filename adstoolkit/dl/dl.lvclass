@@ -26,6 +26,24 @@
 	<Item Name="dl.ctl" Type="Class Private Data" URL="dl.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="def" Type="Folder">
+		<Item Name="detect.ctl" Type="VI" URL="../detect.ctl">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="detectionParameters.ctl" Type="VI" URL="../detectionParameters.ctl">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="getDetections.vi" Type="VI" URL="../getDetections.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -33,7 +51,15 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		</Item>
+		<Item Name="getDetectionsv2.vi" Type="VI" URL="../getDetectionsv2.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 		<Item Name="getMasksFloat.vi" Type="VI" URL="../getMasksFloat.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -41,7 +67,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="initDetection.vi" Type="VI" URL="../initDetection.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -49,7 +75,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">5</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="initdl.vi" Type="VI" URL="../initdl.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -57,7 +83,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="loadClassLabels.vi" Type="VI" URL="../loadClassLabels.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -65,7 +91,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="loadModelES.vi" Type="VI" URL="../loadModelES.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -73,7 +99,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="loadModelS.vi" Type="VI" URL="../loadModelS.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -81,7 +107,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="numberOfDetections.vi" Type="VI" URL="../numberOfDetections.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -89,7 +115,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="runDetection.vi" Type="VI" URL="../runDetection.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -97,7 +123,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="runDetectionTrt.vi" Type="VI" URL="../runDetectionTrt.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -105,7 +131,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 	</Item>
 </LVClass>
