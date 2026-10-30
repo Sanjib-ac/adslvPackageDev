@@ -22,6 +22,7 @@
 		<Item Name="mainOCR.vi" Type="VI" URL="../mainOCR.vi"/>
 		<Item Name="testUpload_raw.vi" Type="VI" URL="../testUpload_raw.vi"/>
 		<Item Name="mainOCRV2.vi" Type="VI" URL="../mainOCRV2.vi"/>
+		<Item Name="test-Array.vi" Type="VI" URL="../test-Array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
