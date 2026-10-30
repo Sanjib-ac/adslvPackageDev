@@ -51,7 +51,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
-		<Item Name="TBLR.ctl" Type="VI" URL="../../ocr/TBLR.ctl">
+		<Item Name="TBLR.ctl" Type="VI" URL="../def/TBLR.ctl">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">9</Property>
