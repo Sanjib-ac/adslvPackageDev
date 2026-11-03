@@ -103,7 +103,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
-		<Item Name="ocr_getOCRDR.vi" Type="VI" URL="../ocr_getOCRDR.vi">
+		<Item Name="getOCRDR.vi" Type="VI" URL="../getOCRDR.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
@@ -114,13 +114,22 @@
 		</Item>
 	</Item>
 	<Item Name="public" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="getCharacters.vi" Type="VI" URL="../getCharacters.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">8192</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8388624</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+		</Item>
+		<Item Name="parseResult_getCharacters.vi" Type="VI" URL="../parseResult_getCharacters.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 		<Item Name="getCharactersv2.vi" Type="VI" URL="../getCharactersv2.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
